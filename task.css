@@ -1,0 +1,501 @@
+/* PC向けスタイル */
+@media screen and (min-width: 1081px) { 
+
+/* ヘッダー */
+header {
+  display: flex;
+  justify-content: space-between; /* ロゴとリストに間を作る */
+  position: relative;
+}
+.hamburger-header:hover{ /* POTEPAN CAMP */
+  opacity: 0.8;
+}
+
+/* リスト */
+.slide-menu li{
+  display: inline-block; /* 要素を横並びに */
+  vertical-align: middle; /* ボタンとリストを真ん中に揃える */
+  text-align: center;
+  list-style: none;  /* メニュー黒ポチを消す */
+  padding:0vw 2vw;
+  margin-top: 0.7vw;
+}
+
+.list_item{
+  text-decoration: none; /* 下線を消す */
+  color: black;
+}
+
+.list_title{
+  font-size: 0.9vw;
+  font-weight: bold;
+}
+.list_text{
+  font-size: 0.5vw;
+}
+
+.list_item:hover{ /* リスト */
+  opacity: 0.5;
+}
+
+.list_counseling_btn{
+  color: white;
+  background-color: #f79214;
+  text-decoration: none; /*下線を消す*/
+  border-radius: 3vw; /* 角を丸くする */
+  padding:1.3vw 2vw; /* 枠の大きさを調整 */
+}
+
+.list_counseling_btn:hover{ /* 無料カウンセリング */
+  opacity: 0.5;
+}
+
+/* ボディー */
+body{
+font-family: "游ゴシック",YuGothic,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+margin: 0; /* 上部の空白を削除 */
+}
+
+/* POTEPAN CAMP */
+.title_logo {
+  width:auto;
+  height: 2vw;
+  margin: 10%;
+}
+
+
+/* 背景 */
+/* スマホ用を削除 */
+.background_image {
+  display: none;
+}
+
+.section1{
+  background-image: url(//camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);
+  background-size: cover; /* 全体にサイズを合わせて表示 */
+  background-position: center; /* 位置を固定(なくすと崩れる) */
+  padding-bottom: 3vw; /* 画像とフッターを繋ぐ (画像を remarks_column p の margin-bottom より大きく表示する) */
+  margin: 0;
+}
+
+/* 最短5ヶ月間で未経験からエンジニアへ */
+.title_text{
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: -40%;
+  font-size: 3vw;
+}
+
+/* 画像3つ */
+.image{
+  display: flex; /* クラス内の要素を横並び */
+  justify-content: center; /*要素を中央揃え */
+  margin-top: 3%;
+  margin-left: -40%;
+}
+.img_left{
+  width: 10vw;
+  height: auto;
+  padding: 1vw;
+}
+
+.img_center{
+  width: 15vw;
+  height: auto;
+}
+
+.img_right{
+  width: 10vw;
+  height: auto;  
+  padding: 1vw;
+}
+
+/* ボタンタグ */
+.btn{
+  margin: 5vw;
+}
+
+/* 無料カウンセリング */
+.btn_counseling{
+      font-weight: bold;
+      color: white;
+      background-color: #f79214;
+      text-decoration: none; /*下線を消す*/
+      font-size: 1.3vw;
+      border-radius: 2.2vw; /* 角を丸くする */
+      padding: 1.7vw; /* 枠の大きさを調整 */
+      margin-left: 9%;
+      position:relative;
+}
+
+.btn_counseling:hover{
+  opacity: 0.5;
+}
+
+/* 資料請求 */
+.btn_invoice{
+  font-weight: bold;
+  color: black;
+  background-color: #ffffff;
+  text-decoration: none;
+  font-size: 1.3vw;
+  border: 1px solid #C0C0C0;
+  border-radius: 2.2vw;
+  padding: 1.7vw;
+  position:relative;
+  left: 1vw;
+}
+
+.btn_invoice:hover{
+  opacity: 0.5;
+}
+
+/* 注意書き */
+.remarks_column{
+  margin-top: 2vw;
+  font-size: 0.2vw;
+  color: #C0C0C0;
+  margin-left: 10%;
+}
+
+/* フッター */
+.footer{
+  background-color: orange;
+  display: flex; /* 要素を横並びに */
+}
+
+.footer_video{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  max-width: 40%;
+  height: auto;
+}
+
+.footer_text{
+  color: white;
+  margin-left: 3%;
+  width: 45%; /* 折り返しの幅 */
+}
+
+h2{
+  font-size: 3vw;
+  margin-top: 18%;
+}
+
+.footer_text p{
+  font-size: 1.3vw;
+}
+
+.btn_study{
+  color: white;
+  text-decoration: none;
+  font-weight:bold;
+  font-size: 2vw;
+}
+
+} /* PCレスポンシブ */
+
+/*PC等
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* スマホ,タブレット向けスタイル */
+@media screen and (max-width: 1080px) {
+
+/* ヘッダー */
+header {
+    display: flex;
+    padding: 5vw;
+    background-color: #fff;
+    position: fixed; /* ヘッダー固定のため */
+    width: 100%;
+    z-index: 999; /* ヘッダー表示のため */
+  }
+header:hover{
+    opacity: 0.8;
+}
+
+/* ボディー */
+body{
+  font-family: "游ゴシック",YuGothic,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+  overflow-x: hidden;/* ハンバーガーメニューのリストを隠す */;
+  margin: 0; /* 隙間を削除 */
+}
+
+/* POTEPAN CAMP */
+  .title_logo {
+    width:auto;
+    height:6vw;
+  }
+
+/* ハンバーガーメニュー */
+
+.hamburger-header{
+  display: flex;
+}
+
+.hamburger{
+  width: 10vw; /* 線の幅 */
+  height: 7vw; /* 線の間 */
+  cursor: pointer;
+  position: fixed; /* レスポンシブ対応で右に固定して表示 */
+  right: 2%; /* レスポンシブ対応で右に固定して表示 */
+}
+.hamburger span{
+  position: absolute;
+  width: 100%; /* 3本戦を表示 */
+  height: 8%; /* 線の太さ */
+  background-color: black;
+  transition: .5s;/* 変化する時間を0.5秒かける */
+}
+/* クリック前 */
+.hamburger span:first-of-type{/* ハンバーガーメニューの1番目の線 */
+  top: 0;
+}
+.hamburger span:nth-of-type(2){/* ハンバーガーメニューの2番目の線 */
+  top: 50%;
+}
+.hamburger span:last-of-type{/* ハンバーガーメニューの3番目の線 */
+  top: 100%;
+}
+/* クリック時の動き */
+.hamburger.active span:first-of-type{/* 展開中の1番目の線 */
+  top: 50%;
+  transform: rotate(45deg);
+}
+.hamburger.active span:nth-of-type(2){/* 展開中の2番目の線 */
+  opacity: 0;/* 透明にする */
+}
+.hamburger.active span:last-of-type{/* 展開中の3番目の線 */
+  top: 50%;
+  transform: rotate(-45deg);
+}
+.slide-menu.active{ /* 右に移動したメニューを元の位置に戻して表示 */
+  transform: translateX(0); 
+  padding: 0; /* リスト横の空白をなくすため */
+}
+/* リスト */
+.slide-menu{ /* 展開中の背景 */ 
+  background-color: black;
+  position: fixed;
+  top: 12vw;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  line-height: 200%;
+  transform: translateX(100%); /* 追記 */
+  transition: .5s;/* 変化する時間を0.5秒かける */
+}
+
+body.active { /*javaでリストを開いた際にスクロールしないように */
+  height: 100%;
+  overflow: hidden;
+}
+
+.slide-menu li{
+  text-align: center;
+  list-style: none;  /* メニュー黒ポチを消す */
+  padding: 5vw;
+}
+
+.list_item{
+  text-align: center;
+  font-weight: bold;
+  font-size: 5vw;
+  color: white;
+  text-decoration: none; /* 下線を消す */
+}
+.list_text{
+  font-size: 3vw;
+  color: #f79214;
+  text-decoration: none;
+}
+.list_item:hover{
+  opacity: 0.5;
+}
+
+.list_counseling_btn{
+  font-weight: bold;
+  color: white;
+  background-color: #f79214;
+  text-decoration: none; /*下線を消す*/
+  font-size: 3vw;
+  border-radius: 10vw; /* 角を丸くする */
+  padding:5vw 8vw; /* 枠の大きさを調整 */
+}
+
+.list_counseling_btn:hover{
+  opacity: 0.5;
+}
+
+/* /ハンバーガーメニュー */
+
+
+/* 背景 */
+.background_image{
+    width: 100%;
+    display: block;
+    padding-top: 18vw; /* 画像がヘッダーに隠れてしまうのを防ぐため */
+}
+
+/* 最短5ヶ月間で未経験からエンジニアへ */
+.title_text{
+    text-align: center;
+    font-size: 6vw;
+    font-weight: 700;
+    margin-top: -40vw;
+    width: 100%;
+}
+
+/* 3画像 */
+
+.image{
+    display: flex; /* クラス内の要素を横並び */
+    justify-content: center; /*要素を中央揃え */
+    margin-top: 5vw;
+    width: 100%;
+}
+.img_left{
+    width: 20%;
+    height: auto;
+}
+
+.img_center{
+    width: 40%;
+    height: auto;
+}
+
+.img_right{
+    width: 20%;
+    height: auto;  
+}
+
+/* 無料カウンセリング */
+.btn{
+    margin-top:10%;
+    text-align: center;
+}
+.btn_counseling{
+        font-weight: bold;
+        color: white;
+        background-color: #f79214;
+        text-decoration: none; /*下線を消す*/
+        font-size: 5vw;
+        border-radius: 10vw; /* 角を丸くする */
+        padding:5vw 15vw; /* 枠の大きさを調整 */
+}
+.btn_counseling:hover{
+    opacity: 0.5;
+}
+
+/* 資料請求 */
+.btn_invoice{
+    display: none; /* 表示なし */
+}
+
+/* 注意書き */
+.remarks_column{
+    margin-top: 15vw;
+    margin-left: 5vw;
+    font-size: 0.5vw;
+    color: #C0C0C0;
+}
+
+/* フッター */
+.footer{
+    background-color: orange;
+    margin-top: 10vw;
+}
+
+.footer_video{
+    margin-top: 10vw;
+    max-width: 100%;
+    height: auto;
+}
+
+.footer_text{
+    color: white;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+.footer_text p{
+  font-size: 3vw;
+}
+
+h2{
+    font-size: 8vw;
+}
+
+.btn_study{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 4vw;
+}
+
+} /*スマホ向け*/
+
