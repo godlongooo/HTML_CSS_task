@@ -27,7 +27,7 @@ header {
 }
 
 .list_title{
-  font-size: 0.9vw;
+  font-size: 1.2vw;
   font-weight: bold;
 }
 .list_text{
@@ -43,7 +43,7 @@ header {
   background-color: #f79214;
   text-decoration: none; /*下線を消す*/
   border-radius: 3vw; /* 角を丸くする */
-  padding:1.3vw 2vw; /* 枠の大きさを調整 */
+  padding:1.5vw 2.2vw; /* 枠の大きさを調整 */
 }
 
 .list_counseling_btn:hover{ /* 無料カウンセリング */
@@ -71,7 +71,7 @@ margin: 0; /* 上部の空白を削除 */
 }
 
 .section1{
-  background-image: url(//camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);
+  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);
   background-size: cover; /* 全体にサイズを合わせて表示 */
   background-position: center; /* 位置を固定(なくすと崩れる) */
   padding-bottom: 3vw; /* 画像とフッターを繋ぐ (画像を remarks_column p の margin-bottom より大きく表示する) */
@@ -151,11 +151,10 @@ margin: 0; /* 上部の空白を削除 */
   opacity: 0.5;
 }
 
-/* 注意書き */
+/* 注釈 */
 .remarks_column{
-  margin-top: 2vw;
-  font-size: 0.2vw;
-  color: #C0C0C0;
+  font-size: 1vw;
+  color: 	#A9A9A9;
   margin-left: 10%;
 }
 
@@ -268,7 +267,7 @@ h2{
 /* ヘッダー */
 header {
     display: flex;
-    padding: 5vw;
+    padding: 1vw;
     background-color: #fff;
     position: fixed; /* ヘッダー固定のため */
     width: 100%;
@@ -288,7 +287,8 @@ body{
 /* POTEPAN CAMP */
   .title_logo {
     width:auto;
-    height:6vw;
+    height:3vw;
+    padding: 2vw
   }
 
 /* ハンバーガーメニュー */
@@ -298,16 +298,17 @@ body{
 }
 
 .hamburger{
-  width: 10vw; /* 線の幅 */
-  height: 7vw; /* 線の間 */
+  width: 5vw; /* 線の幅 */
+  height: 4vw; /* 線の間 */
   cursor: pointer;
   position: fixed; /* レスポンシブ対応で右に固定して表示 */
-  right: 2%; /* レスポンシブ対応で右に固定して表示 */
+  top: 3vw;
+  right: 5vw; /* レスポンシブ対応で右に固定して表示 */
 }
 .hamburger span{
   position: absolute;
   width: 100%; /* 3本戦を表示 */
-  height: 8%; /* 線の太さ */
+  height: 12%; /* 線の太さ */
   background-color: black;
   transition: .5s;/* 変化する時間を0.5秒かける */
 }
@@ -341,13 +342,13 @@ body{
 .slide-menu{ /* 展開中の背景 */ 
   background-color: black;
   position: fixed;
-  top: 12vw;
+  top: 7.5vw;
   width: 100%;
   height: 100%;
   left: 0;
   line-height: 200%;
-  transform: translateX(100%); /* 追記 */
-  transition: .5s;/* 変化する時間を0.5秒かける */
+  transform: translateX(100%);/* リストを隠す */
+  transition: .5s;/* 隠したリスト表示に変化する時間を0.5秒かける */
 }
 
 body.active { /*javaでリストを開いた際にスクロールしないように */
@@ -358,13 +359,13 @@ body.active { /*javaでリストを開いた際にスクロールしないよう
 .slide-menu li{
   text-align: center;
   list-style: none;  /* メニュー黒ポチを消す */
-  padding: 5vw;
+  padding: 6vw;
 }
 
 .list_item{
   text-align: center;
   font-weight: bold;
-  font-size: 5vw;
+  font-size: 3vw;
   color: white;
   text-decoration: none; /* 下線を消す */
 }
@@ -398,7 +399,7 @@ body.active { /*javaでリストを開いた際にスクロールしないよう
 .background_image{
     width: 100%;
     display: block;
-    padding-top: 18vw; /* 画像がヘッダーに隠れてしまうのを防ぐため */
+    padding-top: 10vw; /* 画像がヘッダーに隠れてしまうのを防ぐため */
 }
 
 /* 最短5ヶ月間で未経験からエンジニアへ */
@@ -456,11 +457,11 @@ body.active { /*javaでリストを開いた際にスクロールしないよう
     display: none; /* 表示なし */
 }
 
-/* 注意書き */
+/* 注釈 */
 .remarks_column{
     margin-top: 15vw;
     margin-left: 5vw;
-    font-size: 0.5vw;
+    font-size: 3vw;
     color: #C0C0C0;
 }
 
