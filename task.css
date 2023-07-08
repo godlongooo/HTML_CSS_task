@@ -5,7 +5,6 @@
 header {
   display: flex;
   justify-content: space-between; /* ロゴとリストに間を作る */
-  position: relative;
 }
 .hamburger-header:hover{ /* POTEPAN CAMP */
   opacity: 0.8;
@@ -17,8 +16,8 @@ header {
   vertical-align: middle; /* ボタンとリストを真ん中に揃える */
   text-align: center;
   list-style: none;  /* メニュー黒ポチを消す */
-  padding:0vw 2vw;
-  margin-top: 0.7vw;
+  padding:0vw 1.5vw;
+  margin-top: 1vw;
 }
 
 .list_item{
@@ -31,7 +30,7 @@ header {
   font-weight: bold;
 }
 .list_text{
-  font-size: 0.5vw;
+  font-size: 0.8vw;
 }
 
 .list_item:hover{ /* リスト */
@@ -41,6 +40,7 @@ header {
 .list_counseling_btn{
   color: white;
   background-color: #f79214;
+  font-size: 1vw;
   text-decoration: none; /*下線を消す*/
   border-radius: 3vw; /* 角を丸くする */
   padding:1.5vw 2.2vw; /* 枠の大きさを調整 */
@@ -266,11 +266,10 @@ h2{
 
 /* ヘッダー */
 header {
-    display: flex;
-    padding: 1vw;
-    background-color: #fff;
+    background-color: white;
     position: fixed; /* ヘッダー固定のため */
     width: 100%;
+    height: 50px;
     z-index: 999; /* ヘッダー表示のため */
   }
 header:hover{
@@ -287,23 +286,24 @@ body{
 /* POTEPAN CAMP */
   .title_logo {
     width:auto;
-    height:3vw;
-    padding: 2vw
+    height:16px;
+    padding: 15px;
   }
 
 /* ハンバーガーメニュー */
 
 .hamburger-header{
   display: flex;
+  height: 20px;
 }
 
 .hamburger{
-  width: 5vw; /* 線の幅 */
-  height: 4vw; /* 線の間 */
+  width: 30px; /* 線の幅 */
+  height: 23px; /* 線の間 */
   cursor: pointer;
   position: fixed; /* レスポンシブ対応で右に固定して表示 */
-  top: 3vw;
-  right: 5vw; /* レスポンシブ対応で右に固定して表示 */
+  top: 10px;
+  right: 10px; /* レスポンシブ対応で右に固定して表示 */
 }
 .hamburger span{
   position: absolute;
@@ -342,7 +342,7 @@ body{
 .slide-menu{ /* 展開中の背景 */ 
   background-color: black;
   position: fixed;
-  top: 7.5vw;
+  top: 38px;
   width: 100%;
   height: 100%;
   left: 0;
@@ -399,7 +399,7 @@ body.active { /*javaでリストを開いた際にスクロールしないよう
 .background_image{
     width: 100%;
     display: block;
-    padding-top: 10vw; /* 画像がヘッダーに隠れてしまうのを防ぐため */
+    padding-top: 50px; /* 画像がヘッダーに隠れてしまうのを防ぐため */
 }
 
 /* 最短5ヶ月間で未経験からエンジニアへ */
